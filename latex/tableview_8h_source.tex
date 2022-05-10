@@ -1,0 +1,50 @@
+\hypertarget{tableview_8h_source}{}\doxysection{tableview.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef TABLEVIEW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define TABLEVIEW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}ui\_tableview.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}ui\_mainwindow.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <QtWidgets/QWidget>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QtCharts/QChartGlobal>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QMainWindow>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <QSqlDatabase>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <QtSql>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <QDebug>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QFileInfo>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <QSqlError>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <QSqlDriver>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <QStandardItemModel>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <QMessageBox>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <QtWidgets/QApplication>}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include <QtWidgets/QMainWindow>}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keyword}{class }\mbox{\hyperlink{class_table_view}{TableView}} : \textcolor{keyword}{public} QDialog, \textcolor{keyword}{private} Ui::TableView}
+\DoxyCodeLine{22 \{}
+\DoxyCodeLine{23     Q\_OBJECT}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{keyword}{public}:}
+\DoxyCodeLine{26     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_table_view}{TableView}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{27 \textcolor{keyword}{private}:}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} BuildWindow();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} DatabaseConnect();}
+\DoxyCodeLine{31     \textcolor{keywordtype}{void} DatabaseInit();}
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} DatabasePopulate();}
+\DoxyCodeLine{33     QStandardItemModel *modele;}
+\DoxyCodeLine{34     QStandardItemModel *modelee;}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} TableCourse();}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} TableTest();}
+\DoxyCodeLine{39     \textcolor{keywordtype}{void} TablePilote();}
+\DoxyCodeLine{40     \textcolor{keywordtype}{void} TableMesure();}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \};}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// TABLEVIEW\_H}}
+
+\end{DoxyCode}

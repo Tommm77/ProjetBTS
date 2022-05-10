@@ -1,0 +1,47 @@
+\hypertarget{mainwindow_8h_source}{}\doxysection{mainwindow.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef MAINWINDOW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define MAINWINDOW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}ui\_mainwindow.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}tableview.h"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QtWidgets/QWidget>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QtCharts/QChartGlobal>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <QMainWindow>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <QSqlDatabase>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <QtSql>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QDebug>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <QFileInfo>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <QSqlError>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <QSqlDriver>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <QStandardItemModel>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <QMessageBox>}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include <QtWidgets/QApplication>}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include <QtWidgets/QMainWindow>}}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keyword}{class }ui\_themewidgetform;}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keyword}{class }\mbox{\hyperlink{class_main_window}{MainWindow}} : \textcolor{keyword}{public} QMainWindow, \textcolor{keyword}{private} Ui::MainWindow}
+\DoxyCodeLine{24 \{}
+\DoxyCodeLine{25     Q\_OBJECT}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{keyword}{public}:}
+\DoxyCodeLine{28     \mbox{\hyperlink{class_main_window}{MainWindow}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{29     \mbox{\hyperlink{class_main_window}{\string~MainWindow}}();}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{keyword}{private}:}
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} BuildWindow();}
+\DoxyCodeLine{33     \mbox{\hyperlink{class_table_view}{TableView}} *tablewindow;}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} on\_pushButton\_clicked();}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} Charts();}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41 \};}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// MAINWINDOW\_H}}
+
+\end{DoxyCode}
